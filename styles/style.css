@@ -1,18 +1,251 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Lato&family=Roboto+Slab&display=swap');
+
+* {
   margin: 0;
 }
-.page_content{
+
+.page_content {
   padding: 0 240px;
   margin-bottom: 128px;
 
 }
-.page_heading{
+
+.page_heading {
   background-color: rgba(229, 84, 115, 0.10);
 }
-.banner{
-  display: flex;
+
+.heading_one {
+  color: #272727;
+  font-family: Lato;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
 }
-.banner img{
+
+.heading_two {
+  color: #272727;
+  font-family: Lato;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.title {
+  font-family: Lato;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 35px;
+}
+
+.text_para {
+  color: rgba(39, 39, 39, 0.60);
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.button_common {
+  display: inline-flex;
+  padding: 20px 43px;
+  align-items: flex-start;
+  border-radius: 8px;
+  background: #E55473;
+  color: #FFF;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 700;
+  border:none;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.banner p {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+
+.banner img {
   width: 635px;
-height: 800px;
+  height: 800px;
+}
+
+.content_top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.content_top p {
+  width: 50%;
+}
+
+.feature_contents {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.feature_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  margin-bottom: 128px;
+
+}
+
+.feature_content > div {
+  border-radius: 300px 300px 0px 0px;
+  height: 538px;
+  width: 464px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+
+}
+
+.feature_content .title {
+  text-decoration-line: underline;
+  color: #272727;
+}
+
+.feature_content img {
+  object-fit: contain;
+}
+
+.feature_content .pink {
+  background: rgba(167, 33, 98, 0.15);
+}
+
+.feature_content .sky {
+  background: rgba(5, 151, 160, 0.15);
+  align-items: center;
+
+}
+
+.feature_content .lite_green {
+  background: rgba(71, 125, 17, 0.15);
+}
+
+.support_section {
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+
+
+}
+
+.support_section div {
+  margin-top: 86px;
+  margin-bottom: 87px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+
+}
+
+.support_section img {
+  object-fit: contain;
+}
+
+.support_section .title {
+  color: rgba(39, 39, 39, 0.80);
+}
+
+.deal_section {
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+  display: flex;
+  justify-content: center;
+}
+
+.deal_section .content_top {
+  justify-content: center;
+  margin-bottom: 0;
+}
+
+.deal_section img {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.text_highlight {
+  color: #E55473;
+}
+
+.social_section .social_content {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.subscribe_section {
+  background: url('../assets/Rectangle 9.png');
+  background-repeat: no-repeat;
+  background-position-x: center;
+  padding: 127px 0;
+  border-radius: 8px;
+}
+.subscribe_section form{
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+.subscribe_section .input_field{
+  width: 700px;
+  border-radius: 8px;
+  border:none;
+  padding-left: 22px;
+}
+.subscribe_section .button_common {
+  width: 150px;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer_section{
+  background: #111010;
+  padding-top: 128px;
+  padding-bottom: 128px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.footer_section .heading_two{
+  color: #FFF;
+  font-size: 48px;
+}
+.footer_section span{
+  color: #E55473;
+}
+.footer_section .text_para{
+  color: rgba(255, 255, 255, 0.90);
+  
+}
+.copyright{
+  color: rgba(255, 255, 255, 0.40);
+text-align: center;
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 }
