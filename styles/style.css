@@ -1,0 +1,18 @@
+*{
+  margin: 0;
+}
+.page_content{
+  padding: 0 240px;
+  margin-bottom: 128px;
+
+}
+.page_heading{
+  background-color: rgba(229, 84, 115, 0.10);
+}
+.banner{
+  display: flex;
+}
+.banner img{
+  width: 635px;
+height: 800px;
+}
